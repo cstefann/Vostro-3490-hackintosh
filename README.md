@@ -11,5 +11,5 @@ Dell Vostro 3490 EFI (Opencore 0.6.0) compatible with macOS 10.15.5
 
 # What doesn't work
 
-- WiFi + Bluetooth (mut replace module)
+- WiFi + Bluetooth (must replace module)
 - Ethernet (will come with a fix soon)
