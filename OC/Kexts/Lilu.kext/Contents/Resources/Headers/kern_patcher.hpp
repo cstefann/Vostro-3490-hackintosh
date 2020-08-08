@@ -18,7 +18,8 @@
 
 namespace Patch { union All; void deleter(All * NONNULL); }
 #ifdef LILU_KEXTPATCH_SUPPORT
-union OSKextLoadedKextSummaryHeaderAny;
+struct OSKextLoadedKextSummaryHeader;
+struct OSKextLoadedKextSummary;
 #endif /* LILU_KEXTPATCH_SUPPORT */
 
 class KernelPatcher {
@@ -602,7 +603,7 @@ private:
 	/**
 	 *  A pointer to loaded kext information
 	 */
-	OSKextLoadedKextSummaryHeaderAny **loadedKextSummaries {nullptr};
+	OSKextLoadedKextSummaryHeader **loadedKextSummaries {nullptr};
 
 	/**
 	 *  A pointer to kext summaries update
@@ -615,7 +616,7 @@ private:
 	 *  @param summaries loaded kext summaries
 	 *  @param num       number of loaded kext summaries
 	 */
-	void processAlreadyLoadedKexts(OSKextLoadedKextSummaryHeaderAny *summaries, size_t num);
+	void processAlreadyLoadedKexts(OSKextLoadedKextSummary *summaries, size_t num);
 
 #endif /* LILU_KEXTPATCH_SUPPORT */
 

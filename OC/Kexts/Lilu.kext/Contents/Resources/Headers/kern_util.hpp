@@ -327,7 +327,6 @@ enum KernelVersion {
 	HighSierra    = 17,
 	Mojave        = 18,
 	Catalina      = 19,
-	BigSur        = 20,
 };
 
 /**
