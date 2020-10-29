@@ -1,5 +1,5 @@
 # Vostro-3490-hackintosh
-Dell Vostro 3490 EFI (Opencore 0.6.0) compatible with macOS 10.15.6
+Dell Vostro 3490 EFI (Opencore 0.6.0) compatible with macOS 10.15.7
 
 # Specs:
 
