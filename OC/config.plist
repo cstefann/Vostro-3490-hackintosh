@@ -1180,7 +1180,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 -wegnoegpu</string>
+				<string>-v keepsyms=1 debug=0x100 -wegnoegpu alcid=3</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -1249,7 +1249,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C020103034N0000CB</string>
+			<string>C02006270J900001F</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>SystemMemoryStatus</key>
@@ -1259,11 +1259,11 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacBookPro16,2</string>
+			<string>MacBookPro16,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CD0NSML7H</string>
+			<string>C02C77ZEP3XY</string>
 			<key>SystemUUID</key>
-			<string>ADE8558E-5FF9-457B-8986-81AAF9CB931E</string>
+			<string>C1DC59BC-D8B3-4D83-A87A-195C0688E215</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
