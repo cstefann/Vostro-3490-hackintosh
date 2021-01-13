@@ -1240,7 +1240,7 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>HfsPlus.efi</string>
+			<string>OpenCanopy.efi</string>
 			<string>OpenRuntime.efi</string>
 		</array>
 		<key>Input</key>
@@ -1332,8 +1332,6 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
-			<key>DeduplicateBootOrder</key>
-			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
