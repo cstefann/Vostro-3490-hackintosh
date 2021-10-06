@@ -1,4 +1,4 @@
-#Development on this repo is halted!
+# Development on this repo is halted!
 
 # Vostro-3490-hackintosh
 Dell Vostro 3490 EFI (Opencore) compatible with macOS 10.15.x and 11.x
